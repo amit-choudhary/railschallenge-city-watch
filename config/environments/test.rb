@@ -14,4 +14,6 @@ Rails.application.configure do
 
   config.active_support.test_order = :random
   config.active_support.deprecation = :stderr
+
+  config.action_controller.action_on_unpermitted_parameters = :raise
 end

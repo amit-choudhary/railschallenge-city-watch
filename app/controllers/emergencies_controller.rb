@@ -1,2 +1,2 @@
-class EmergenciesController < ActionController::Base
+class EmergenciesController < ApplicationController
 end
